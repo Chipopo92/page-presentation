@@ -1,0 +1,14 @@
+.button {
+    font-family: sans-serif;
+    background-color: darkgray;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+    margin: 1px;
+    border-radius: 5em;
+    transition: 1s;
+}
+a {
+    color: blueviolet;
+}
