@@ -39,6 +39,24 @@ h1 {
     margin: 10px;
 }
 
+.img-iim {
+    display: block;
+    margin: 30px auto;
+    animation: 2s infinite linear tourne;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+
+@keyframes tourne {
+    0% {
+        transform: translateY(-25px)
+    }
+    100% {
+        transform: translateY(25px);
+    }
+}
+
+
 ul {
     display: flex;
     gap: 30px;
